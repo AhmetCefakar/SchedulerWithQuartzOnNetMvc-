@@ -8,6 +8,7 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using Quartz;
 using Quartz.Impl;
+using WebAppSchecular.CustomJob;
 
 namespace WebAppSchecular
 {
@@ -20,13 +21,13 @@ namespace WebAppSchecular
 			RouteConfig.RegisterRoutes(RouteTable.Routes);
 			BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-			Scheduler.Execute();
+			new Scheduler().Start();
 		}
 	}
 
 	public class Scheduler
 	{
-		public static void Execute()
+		public void Start()
 		{
 			// construct a scheduler factory
 			ISchedulerFactory schedFact = new StdSchedulerFactory();
@@ -55,7 +56,7 @@ namespace WebAppSchecular
 	{
 		void IJob.Execute(IJobExecutionContext context)
 		{
-			Debug.WriteLine("Scheduler Runned!");
+			new ProjectFuctions().DoSomething();
 		}
 	}
 }
