@@ -49,7 +49,6 @@ namespace WebAppSchecular
 			// Schedule the job using the job and trigger 
 			sched.ScheduleJob(job, trigger);
 		}
-
 	}
 
 	public class SimpleJob : IJob
