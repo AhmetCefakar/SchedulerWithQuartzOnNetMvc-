@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppSchecular", "WebAppSchecular\WebAppSchecular.csproj", "{6A969942-AFF7-4B2F-921F-762D9EEC495E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppRebrandly", "ConsoleAppRebrandly\ConsoleAppRebrandly.csproj", "{0E2EFB9A-1DAF-433E-9CDB-FA741D533F44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6A969942-AFF7-4B2F-921F-762D9EEC495E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A969942-AFF7-4B2F-921F-762D9EEC495E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A969942-AFF7-4B2F-921F-762D9EEC495E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2EFB9A-1DAF-433E-9CDB-FA741D533F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2EFB9A-1DAF-433E-9CDB-FA741D533F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2EFB9A-1DAF-433E-9CDB-FA741D533F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2EFB9A-1DAF-433E-9CDB-FA741D533F44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
